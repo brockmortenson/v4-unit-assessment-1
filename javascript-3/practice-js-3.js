@@ -3,10 +3,14 @@
 
 //CODE HERE
 
+let groceries = ['Milk', 'Eggs', 'Soda']
+
 //////////////////STEP 2////////////////////
 /* Create a variable called 'yourName' that is assigned the value of your name as a string. */
 
 //CODE HERE
+
+let yourName = ['Brock '] //Not sure why specrunner shows Brock as not being a string
 
 //////////////////STEP 3////////////////////
 /*
@@ -18,6 +22,9 @@
 
 //CODE HERE
 
+function setGroceryListTitle(x){
+    return x + 'Grocery List'
+}
 //////////////////STEP 4////////////////////
 /* 
     Create a function called 'addItem' that takes in one parameter called 'item'. 
@@ -28,6 +35,10 @@
 
 //CODE HERE
 
+function addItem(item){
+    return item + x
+}
+
 //////////////////STEP 5////////////////////
 /*
     Create a function called 'removeItem' that takes in one parameter called 'index'. 
@@ -37,6 +48,10 @@
 */
 
 //CODE HERE
+
+function removeItem(index){
+    let removeItem = item.splice //something like that. I am not sure...
+}
 
 //////////////////STEP 6////////////////////
 /*
@@ -51,6 +66,15 @@
 
 //CODE HERE
 
+function checkGroceryCount(){ //I am not sure...
+    // if(groceries > 5){
+    //     return 'That looks like a big trip'
+    // }   else if(groceries === 1){
+    //     return '1 item'
+    // }   else(groceries === 2, 3, 4){
+    //     return 'items'
+    // }
+}
 
 //////////////////Check out your code!////////////////////
 /*
